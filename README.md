@@ -7,16 +7,16 @@ O código do web scraping está na pasta **/src** e o arquivo **main.py** é uti
 
 Pensando em manter os módulos de **service**, **extract**, **infra** individuais, foi desenvolvido classes para encapsular as responsabilidades.
 
-O módulo  **service** realiza a requisição para o site obtendo o html, atravéz da biblioteca ***requests*** . Caso seja necessário substituir a *lib*,  apenas será preciso sobrescrever a classe **HttpRequest**.
+O módulo [service](https://github.com/fabriciocovalesci/webscraping/tree/main/src/service "service") realiza a requisição para o site obtendo o html, atravéz da biblioteca [requests](https://pypi.org/project/requests/ "requests"). Caso seja necessário substituir a *lib*,  apenas será preciso sobrescrever a classe [HttpRequest](https://github.com/fabriciocovalesci/webscraping/tree/main/algoritmos "HttpRequest").
 
-O módulo **extract** faz a extração do HTML com a *lib* **BeautifulSoup**, caso seja preciso substituir a lib, deve se  sobrescrever a classe **HtmlCollector**. 
+O módulo [extract](https://github.com/fabriciocovalesci/webscraping/tree/main/src/extract "extract") faz a extração do HTML com a *lib* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/ "BeautifulSoup"), caso seja preciso substituir a lib, deve se  sobrescrever a classe [HtmlCollector](https://github.com/fabriciocovalesci/webscraping/blob/main/src/extract/collector.py "HtmlCollector"). 
 Foi definido um contrato por meio do **namedtuple**, que a classe **HtmlCollector** deve retornar uma lista com os seguintes campos: **nome, capital, populacao, area**.
 
-O módulo **infra**  é responsável por armazenar os dados em ***csv***, e salva dos dados dentro da pasta **/data**.
+O módulo [infra](https://github.com/fabriciocovalesci/webscraping/tree/main/src/infra "infra") é responsável por armazenar os dados em ***csv***, e salva dos dados dentro da pasta [data](https://github.com/fabriciocovalesci/webscraping/tree/main/data "data").
 
 Foi desenvolvido logs para acompanhar todos os procedimentos que a atumação faz, os logs são salvos dentro da pasta **src/logs**
 
-O arquivo ***start.py*** contém a classe **Start** que centraliza os imports, entre os módulos.
+O arquivo [start.py](https://github.com/fabriciocovalesci/webscraping/blob/main/src/start.py "start.py"). contém a classe **Start** que centraliza os imports, entre os módulos.
 
 #### Como executar a automação local
 
