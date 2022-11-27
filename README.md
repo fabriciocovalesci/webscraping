@@ -59,6 +59,7 @@ O arquivo [start.py](https://github.com/fabriciocovalesci/webscraping/blob/main/
     docker build -t raspador .
 
 4 - Execute o container 
+
 OBS: Escolha caminho de uma pasta do seu computador para acessar volume do container, para acessar o arquivo csv gerado.
 
     docker run -v <CAMINHO DA PASTA DO SEU DESKTOP>:/app/data -it raspador
