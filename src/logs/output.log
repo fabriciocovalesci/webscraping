@@ -1,0 +1,7 @@
+2022-11-27 18:33:59,479 : INFO : root : start : run_automation : Automation started
+2022-11-27 18:34:00,751 : INFO : root : http : request_from_page : Request for page www.scrapethissite.com
+2022-11-27 18:34:00,971 : INFO : root : collector : collect_information : Initializing BeautifulSoup for scraping
+2022-11-27 18:34:01,044 : INFO : root : collector : collect_information : Data extraction completed successfully
+2022-11-27 18:34:01,045 : INFO : root : write_file : write : Initializing module to save data
+2022-11-27 18:34:01,046 : INFO : root : write_file : write : Data successfully saved to file 2022-11-27.csv in folder data
+2022-11-27 18:34:01,046 : INFO : root : start : run_automation : Finished automation
