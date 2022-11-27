@@ -14,7 +14,7 @@ Foi definido um contrato por meio do **namedtuple**, que a classe **HtmlCollecto
 
 O módulo [infra](https://github.com/fabriciocovalesci/webscraping/tree/main/src/infra "infra") é responsável por armazenar os dados em ***csv***, e salva dos dados dentro da pasta [data](https://github.com/fabriciocovalesci/webscraping/tree/main/data "data").
 
-Foi desenvolvido logs para acompanhar todos os procedimentos que a automação faz, os logs são salvos dentro da pasta **src/logs**
+Foi desenvolvido logs para acompanhar todos os procedimentos que a automação faz, os logs são salvos dentro da pasta [src/logs](https://github.com/fabriciocovalesci/webscraping/tree/main/src/logs "src/logs")
 
 O arquivo [start.py](https://github.com/fabriciocovalesci/webscraping/blob/main/src/start.py "start.py"). contém a classe **Start** que centraliza os imports, entre os módulos.
 
