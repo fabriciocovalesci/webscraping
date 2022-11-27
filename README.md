@@ -1,7 +1,7 @@
 ## WEb Scraping
 
 
-Dentro da pasta **algoritimos** contém os dois exercicios de lógica.
+Dentro da pasta [algoritmos](https://github.com/fabriciocovalesci/webscraping/tree/main/algoritmos "algoritmos") contém os dois exercicios de lógica.
 
 O código do web scraping está na pasta **/src** e o arquivo **main.py** é utilizado como inicializador da automação.
 
@@ -22,7 +22,7 @@ O arquivo ***start.py*** contém a classe **Start** que centraliza os imports, e
 
 1 - Clone repositório:
 
-    git clone
+    git clone https://github.com/fabriciocovalesci/webscraping.git
 
 2 - Acesse pasta webscraping
 
@@ -48,7 +48,7 @@ O arquivo ***start.py*** contém a classe **Start** que centraliza os imports, e
 
 1 - Clone repositório:
 
-    git clone
+    git clone https://github.com/fabriciocovalesci/webscraping.git
 
 2 - Acesse pasta webscraping
 
